@@ -51,24 +51,24 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form>
+                <div>
                   <div class="mb-3">
                     <label for="recipient-name" class="col-form-label">Your Name</label>
-                    <input  placeholder="Enter Your Full Name" type="text" class="form-control" id="recipient-name">
+                    <input  placeholder="Enter Your Full Name" type="text" class="form-control" id="full-Name">
                   </div>
                   <div class="mb-3">
                     <label for="message-text" class="col-form-label">Your Email</label>
-                    <input placeholder="Enter Your Email" class="form-control" id="message-text" type="email">
+                    <input placeholder="Enter Your Email" class="form-control" id="email" type="email">
                   </div>
                   <div class="mb-3">
                     <label for="message-text" class="col-form-label">Password</label>
-                    <input placeholder="Enter Your Password" type="password" class="form-control" id="password-text">
+                    <input placeholder="Enter Your Password" type="password" class="form-control" id="password">
                   </div>
-                </form>
+                </div>
               </div>
               <div class="modal-footer justify-content-center">
                
-                <button type="button" class="btn"  style="background-color: rgb(32, 32, 100)  ; color: bisque;">Sign Up</button>
+                <button onclick="signUp()" type="button" class="btn"  style="background-color: rgb(32, 32, 100)  ; color: bisque;">Sign Up</button>
               </div>
             </div>
           </div>
@@ -90,20 +90,19 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form>
+                  <div>
                     <div class="mb-3">
                       <label for="message-text" class="col-form-label">Your Email</label>
-                      <input placeholder="Enter Your Email Address" class="form-control" id="message-text" type="email">
+                      <input placeholder="Enter Your Email Address" class="form-control" id="login-email" type="email">
                     </div>
                     <div class="mb-3">
                       <label for="message-text" class="col-form-label">Password</label>
-                      <input placeholder="Enter Your Password" type="password" class="form-control" id="password-text">
+                      <input placeholder="Enter Your Password" type="password" class="form-control" id="login-Password">
                     </div>
-                  </form>
+                  </div>
                 </div>
                 <div class="modal-footer justify-content-center">
-                  <button type="button"  class="btn"
-                  style="background-color: rgb(32, 32, 100)  ; color: bisque;">Log In</button>
+                  <button type="button" onclick="logIn()"  class="btn" style="background-color: rgb(32, 32, 100)  ; color: bisque;">Log In</button>
                 </div>
               </div>
             </div>
