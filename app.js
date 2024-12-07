@@ -5,9 +5,9 @@ function signUp() {
     console.log(fullName.value)
     console.log(email.value)
     console.log(password.value)
-    fullName.value=' '
-    email.value=' '
-    password.value=' '
+    // fullName.value=''
+    // email.value=''
+    // password.value=''
 }
 
 function logIn() {
@@ -15,7 +15,24 @@ function logIn() {
     var loginPassword= document.getElementById('login-Password')
     if (loginEmail.value === email.value && loginPassword.value===password.value) {
         console.log("Correct! The password you entered matches the original password.")
-        // if(loginEmail.value !== email.value){
+    }
+    else{
+        console.log("Incorrect Email & Password")
+    }
+    window.location.assign("welcome.html")
+}
+
+
+
+
+
+
+
+
+
+
+
+ // if(loginEmail.value !== email.value){
             
         //     if(loginPassword.value!== password.value){
         //         }
@@ -30,8 +47,3 @@ function logIn() {
         // else{
         //     console.log("Incorrect Email")
         // }
-    }
-    else{
-        console.log("Incorrect Email & Password")
-    }
-}
