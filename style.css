@@ -1,0 +1,10 @@
+
+ul {
+    list-style-type: none; /* Removes the default bullet points */
+    /* margin-right: 150px; Optional: Removes any default padding */
+  }
+  
+  li {
+    list-style-type: none; /* Optional: Ensures no bullets if applied directly to li */
+    /* margin-right: 150px; */
+  }
